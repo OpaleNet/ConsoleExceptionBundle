@@ -16,6 +16,6 @@
         "symfony/framework-bundle": "~2.3"
     },
     "autoload": {
-        "psr-4": { "Opale\\ConsoleExceptionBundle": "" }
+        "psr-4": { "Opale\\ConsoleExceptionBundle\\": "" }
     }
 }

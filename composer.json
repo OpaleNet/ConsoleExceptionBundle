@@ -1,0 +1,21 @@
+{
+    "name": "opale/console-exception-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony ConsoleExceptionBundle",
+    "keywords": [],
+    "homepage": "https://symfony.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Xavier RENAUDIN",
+            "email": "xavier@opale.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.9",
+        "symfony/framework-bundle": "~2.3"
+    },
+    "autoload": {
+        "psr-4": { "Opale\\ConsoleExceptionBundle": "" }
+    }
+}

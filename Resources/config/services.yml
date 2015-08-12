@@ -1,0 +1,7 @@
+services:
+    opale.kernel.listener.command_dispatch:
+        class: Opale\ConsoleExceptionBundle\Listener\ConsoleExceptionListener
+        arguments:
+            logger: "@logger"
+        tags:
+            - { name: kernel.event_listener, event: console.exception }

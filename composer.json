@@ -7,8 +7,10 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Xavier RENAUDIN",
-            "email": "xavier@opale.net"
+            "name": "Xavier RENAUDIN"
+        },
+        {
+            "name": "Yann M"
         }
     ],
     "require": {

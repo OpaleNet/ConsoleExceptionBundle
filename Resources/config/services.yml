@@ -2,6 +2,7 @@ services:
     opale.kernel.listener.command_dispatch:
         class: Opale\ConsoleExceptionBundle\Listener\ConsoleExceptionListener
         arguments:
-            logger: "@logger"
+            - "@logger"
+        deprecated: 'The "%service_id%" service is deprecated and useless starting with Symfony 3.3'
         tags:
             - { name: kernel.event_listener, event: console.exception }
